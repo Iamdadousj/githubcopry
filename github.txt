@@ -1,0 +1,13 @@
+1、在GitHub创建project项目文件；（必须为空文件），配置ssh或者https；
+2、在桌面文件鼠标右击选择Git bush；进入文件Git环境；
+3、初始化git init；产生.git;
+4、保存当前状态，git status；
+5、开始添加项目，git add .
+6、保存状态git status；
+7、提交git commit -m 'project 备注信息'；
+8、链接远程仓库；ssh或者https;  git remote add origin + ssh/https(自己项目的仓库地址)
+9、验证操作人，git push origin master；
+10、按提示完成操作网页上传成功；
+11、设置gitHub项目链接首页，打开setting，找到GitHub Pages，将source的第一项设置为master branch;点击save保存，生成链接；
+上方提示your site is published at +项目运行地址
+
